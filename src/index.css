@@ -5,32 +5,32 @@
 body {
   font-family: sans-serif;
   margin: 3rem;
-  background-color: #dfdfdf;
+  background-color: #F2F6F5;
 }
 
 h1, h2 {
   color: #333333;
+  letter-spacing: 2px;
 }
 
 .btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
-  border-radius: 4px;
-  background-color: #800040;
+  background-color: #4a7445;
   color: white;
-  border: 1px solid #800040;
+  border: 1px solid #4a7445;
   margin: 0 1rem;
 }
 
 .btn:hover {
-  background-color: #9c1458;
-  border-color: #9c1458;
+  background-color: #4a7445;
+  border-color: #4a7445;
 }
 
 .btn--alt {
   background-color: transparent;
-  color: #800040;
+  color: #4a7445;
 }
 
 .btn--alt:hover {
@@ -39,8 +39,6 @@ h1, h2 {
 
 .card {
   background-color: white;
-  border-radius: 4px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   padding: 1rem;
   width: 20rem;
 }
@@ -51,7 +49,6 @@ h1, h2 {
 
 .modal {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
   background-color: white;
   padding: 1rem;
   text-align: center;

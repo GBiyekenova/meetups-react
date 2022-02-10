@@ -1,15 +1,17 @@
 .form {
   padding: 1rem;
+  margin: 4.5rem auto;
 }
 
 .control {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.6rem;
 }
 
 .control label {
   display: block;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
+  font-weight: 350;
+  margin-top: 1rem;
+  font-size: 15px;
 }
 
 .control input,
@@ -30,16 +32,16 @@
 .actions button {
   font: inherit;
   cursor: pointer;
-  background-color: #77002e;
+  background-color: #4a7445;
   color: white;
   padding: 0.5rem 1.5rem;
-  border: 1px solid #77002e;
+  border: 1px solid #4a7445;
   border-radius: 4px;
   font-weight: bold;
 }
 
 .actions button:hover,
 .actions button:active {
-  background-color: #a50e48;
-  border-color: #a50e48;
+  background-color: #9CD595;
+  border-color: #9CD595;
 }
