@@ -4,7 +4,7 @@ import FavouritesPage from "../pages/Favourites";
 const FavouritesContext = createContext({
   favourites: [],
   totalFavourites: 0,
-  addFavourite: (favouriteMeetup) => {},
+  addFavourite: (favouriteMeetup) => {}, //writing these out just for the autocompletion
   removeFavourite: (meetupId) => {},
   itemIsFavourite: (meetupId) => {},
 });
